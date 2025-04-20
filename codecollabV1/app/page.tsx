@@ -277,7 +277,7 @@ export default function Home() {
                     Start Coding
                   </Button>
                 </DialogTrigger>
-                <DialogContent>
+                <DialogContent className="bg-black border-primary">
                   <DialogHeader>
                     <DialogTitle>Create a New Room</DialogTitle>
                   </DialogHeader>
@@ -298,11 +298,11 @@ export default function Home() {
 
               <Dialog>
                 <DialogTrigger asChild>
-                  <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
+                  <Button size="lg" variant="outline" className="glow-button border-primary text-primary hover:border-primary/10">
                     Join a Room
                   </Button>
                 </DialogTrigger>
-                <DialogContent>
+                <DialogContent className="bg-black border-primary">
                   <DialogHeader>
                     <DialogTitle>Join an Existing Room</DialogTitle>
                   </DialogHeader>
@@ -414,46 +414,46 @@ export default function Home() {
               <thead>
                 <tr>
                   <th className="text-left">Features</th>
-                  <th className="text-center">Code-Collab</th>
+                  <th className="text-center">Sandbox</th>
                   <th className="text-center">Replit</th>
-                  <th className="text-center">CodeSandbox</th>
+                  <th className="text-center">Code-Collab</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>No Bloatware</td>
                   <td className="text-center">
+                    <X className="h-5 w-5 comparison-x inline" />
+                  </td>
+                  <td className="text-center">
+                    <X className="h-5 w-5 comparison-x inline" />
+                  </td>
+                  <td className="text-center">
                     <Check className="h-5 w-5 comparison-check inline" />
-                  </td>
-                  <td className="text-center">
-                    <X className="h-5 w-5 comparison-x inline" />
-                  </td>
-                  <td className="text-center">
-                    <X className="h-5 w-5 comparison-x inline" />
                   </td>
                 </tr>
                 <tr>
                   <td>Low-Latency Real-Time Sync</td>
                   <td className="text-center">
-                    <Check className="h-5 w-5 comparison-check inline" />
-                  </td>
-                  <td className="text-center">
-                    <Check className="h-5 w-5 comparison-check inline" />
-                  </td>
-                  <td className="text-center">
                     <X className="h-5 w-5 comparison-x inline" />
+                  </td>
+                  <td className="text-center">
+                    <Check className="h-5 w-5 comparison-check inline" />
+                  </td>
+                  <td className="text-center">
+                    <Check className="h-5 w-5 comparison-check inline" />
                   </td>
                 </tr>
                 <tr>
                   <td>Privacy-Focused</td>
                   <td className="text-center">
+                    <X className="h-5 w-5 comparison-x inline" />
+                  </td>
+                  <td className="text-center">
+                    <X className="h-5 w-5 comparison-x inline" />
+                  </td>
+                  <td className="text-center">
                     <Check className="h-5 w-5 comparison-check inline" />
-                  </td>
-                  <td className="text-center">
-                    <X className="h-5 w-5 comparison-x inline" />
-                  </td>
-                  <td className="text-center">
-                    <X className="h-5 w-5 comparison-x inline" />
                   </td>
                 </tr>
                 <tr>
@@ -462,19 +462,19 @@ export default function Home() {
                     <Check className="h-5 w-5 comparison-check inline" />
                   </td>
                   <td className="text-center">
-                    <Check className="h-5 w-5 comparison-check inline" />
+                    <X className="h-5 w-5 comparison-x inline" />
                   </td>
                   <td className="text-center">
-                    <X className="h-5 w-5 comparison-x inline" />
+                    <Check className="h-5 w-5 comparison-check inline" />
                   </td>
                 </tr>
                 <tr>
                   <td>Instant Setup</td>
                   <td className="text-center">
-                    <Check className="h-5 w-5 comparison-check inline" />
+                    <X className="h-5 w-5 comparison-x inline" />
                   </td>
                   <td className="text-center">
-                    <X className="h-5 w-5 comparison-x inline" />
+                    <Check className="h-5 w-5 comparison-check inline" />
                   </td>
                   <td className="text-center">
                     <Check className="h-5 w-5 comparison-check inline" />
@@ -483,13 +483,13 @@ export default function Home() {
                 <tr>
                   <td>Built-in Music Player</td>
                   <td className="text-center">
+                    <X className="h-5 w-5 comparison-x inline" />
+                  </td>
+                  <td className="text-center">
+                    <X className="h-5 w-5 comparison-x inline" />
+                  </td>
+                  <td className="text-center">
                     <Check className="h-5 w-5 comparison-check inline" />
-                  </td>
-                  <td className="text-center">
-                    <X className="h-5 w-5 comparison-x inline" />
-                  </td>
-                  <td className="text-center">
-                    <X className="h-5 w-5 comparison-x inline" />
                   </td>
                 </tr>
               </tbody>
@@ -703,7 +703,7 @@ export default function Home() {
                   Create a Room <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </DialogTrigger>
-              <DialogContent>
+              <DialogContent className="bg-black border-primary">
                 <DialogHeader>
                   <DialogTitle>Create a New Room</DialogTitle>
                 </DialogHeader>
@@ -724,11 +724,11 @@ export default function Home() {
 
             <Dialog>
               <DialogTrigger asChild>
-                <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
+                <Button size="lg" variant="outline" className="glow-button border-primary text-primary hover:border-primary/10">
                   Join a Room
                 </Button>
               </DialogTrigger>
-              <DialogContent>
+              <DialogContent className="bg-black border-primary">
                 <DialogHeader>
                   <DialogTitle>Join an Existing Room</DialogTitle>
                 </DialogHeader>
